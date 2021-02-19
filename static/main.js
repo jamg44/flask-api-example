@@ -1,3 +1,5 @@
+'use strict';
+
 main().catch(err => console.error('Hubo un error,', err));
 
 async function main() {
