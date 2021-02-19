@@ -1,4 +1,4 @@
-# API-example-python
+# flask-API-example
 
 ## Build the image
 
@@ -11,3 +11,5 @@ docker build -t api-example-python .
 ```sh
 docker run --rm -it -v $(PWD):/code -p 5000:5000 api-example-python 
 ```
+
+License: MIT
